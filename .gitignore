@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+*.log
+*.sqlite3
+*.db
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+
+# ANTLR generated files (optional, if you want to ignore)
+*.tokens
+*.interp
+
+# VS Code
+.vscode/
+
+# MacOS
+.DS_Store
+
+# Test and coverage
+htmlcov/
+.coverage
+.cache/
+
+# Misc
+*.bak
+*.swp
+*.tmp
+
+# Ignore requirements output
+requirements/*.spec
+requirements/*/progress.yaml

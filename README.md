@@ -32,10 +32,8 @@ cd specflow
 python3 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
+pip install --editable .
 ```
-
-## Usage Python
-python spec_cli.py <command> <args>
 
 ## Usage CLI
 spec init requirements/epic-logging/epic.spec
